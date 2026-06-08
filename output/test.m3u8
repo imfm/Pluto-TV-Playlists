@@ -7,4 +7,4 @@ pipe:///usr/bin/ffmpeg -i https://cfd-v4-service-channel-stitcher-use1-1.prd.plu
 pipe:///usr/bin/ffmpeg -i http://190.11.225.124:5000/live/fs1_hd/playlist.m3u8 -c copy -f mpegts pipe:1
 
 #EXTINF:-1 tvg-id="CNN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/CNN_Logo_%282014%29.svg/500px-CNN_Logo_%282014%29.svg.png" tvg-chno="99201" group-title="Sports", CNN
-pipe:///usr/bin/ffmpeg -i https://list.iptvcat.com/my_list/s/df2e2ba5f2a831991ee91470a06158ef.m3u8 -c copy -f mpegts pipe:1
+pipe:///usr/bin/ffmpeg -i https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_4_1064000.m3u8 -c copy -f mpegts pipe:1
